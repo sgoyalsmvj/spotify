@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Moon+Dance&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    font-family: 'ubuntu', sans-serif;
+}
+
+nav ul {
+    background-color: black;
+    height: 65px;
+    display: flex;
+    
+    align-items: center;
+    list-style: none;
+    color: white;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+.brand img {
+    height: 50px;
+    padding: 0 8px;
+    display: flex;
+}
+
+
+/* .brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+} */
+
+.container {
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    font-family: 'dancing script', monospace;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url(./media/pexels-daniel-reche-3721941.jpg);
+    background-size: cover;
+}
+
+.songlist {
+    display: flex;
+}
+
+.songItemContainer {
+    padding: 0px;
+    margin: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.songitem {
+    height: 50px;
+    /* background-color: white; */
+    width: 140px;
+    height: 160px;
+    /* color: black; */
+    margin: 30px;
+    font-family: 'Ubuntu', monospace;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    /* border-radius: 33px; */
+}
+
+.songitem img {
+    width: 140px;
+}
+
+.bottom {
+    position: sticky;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    display: block;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 0px;
+}
+
+.icons {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons i {
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.bar {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+}
+
+#myProgressBar {
+    align-items: center;
+    width: 45vw;
+    background-color: rgb(0, 140, 255);
+    cursor: pointer;
+}
+
+.timestamp {
+    margin: 0 23px;
+}
+
+.timestamp i {
+    cursor: pointer;
+}
+
+.songinfo {
+    padding: 10px;
+    color: white;
+    font-family: 'ubuntu', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
